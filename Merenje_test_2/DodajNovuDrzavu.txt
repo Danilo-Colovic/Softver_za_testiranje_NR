@@ -1,0 +1,8 @@
+CREATE PROCEDURE [DodajNovuDrzavu]( 
+@Naziv varchar(50),
+@Oznaka varchar(50))
+AS
+BEGIN
+INSERT INTO DrzavaTable(Naziv, Oznaka) VALUES (@Naziv, @Oznaka)
+END
+GO

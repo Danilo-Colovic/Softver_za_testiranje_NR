@@ -1,0 +1,4 @@
+CREATE PROCEDURE [PrikaziSveDrzave]
+AS
+SELECT * FROM DrzavaTable
+GO
